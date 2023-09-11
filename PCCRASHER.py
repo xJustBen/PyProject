@@ -1,23 +1,15 @@
 #Settings
 
-
-
 #Either True or False
 #If UseBoth is set to True, disable the others.
 
-
-githubversion = '0.0.2'
 UseBoth = True 
 UseBrowser = False
 BrowserURL = 'https://outlook.office365.com/mail/inbox/'
 UseCMDWindows = False
-DebuggingMode = False #Set to False for this to actually work - True for testing
+DebuggingMode = True #Set to False for this to actually work - True for testing
 DebuggingTimes = 5 #If debugging mode is on, how many times should it loop
 
-if version != githubversion:
-        print('take2')
-else:
-        print('hi')
 # End Of Settings
 
 
@@ -63,7 +55,7 @@ else:
 
 
 
-
+print("You are using the most up to date version!")
 # Do Not Edit Below
 
 
@@ -98,9 +90,6 @@ MB_ICONWARNING = 0x00000030
 MB_YESNO = 0x00000004
 terminated = 'It appears you hit cancel on a prompt, so this instance has automatically ended. Re-run the program to continue.'
 # Loaded
-
-
-
 
 print("Please wait...")
 time.sleep(3)
