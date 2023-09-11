@@ -38,45 +38,7 @@ DebuggingTimes = 5 #If debugging mode is on, how many times should it loop
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Do Not Edit Below
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Loading Important Stuff
 import time
