@@ -4,7 +4,7 @@
 #If UseBoth is set to True, disable the others.
 
 UseBoth = True 
-UseBrowser = False
+UseBrowser = True
 BrowserURL = 'https://outlook.office365.com/mail/inbox/'
 UseCMDWindows = False
 DebuggingMode = True #Set to False for this to actually work - True for testing
