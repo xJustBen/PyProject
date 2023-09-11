@@ -95,7 +95,7 @@ time.sleep(3)
 
 
 if DebuggingMode == False:
-        response = ctypes.windll.user32.MessageBoxW(None, 'Status: You are using the most up to date version!\n\nAre you sure you want to continue?', 'The Big Shay', MB_ICONWARNING | MB_YESNO)
+        response = ctypes.windll.user32.MessageBoxW(None, 'Status: You are using the most up to date version!\n\nAre you sure you want to continue? It can be tricky to stop (unless you just restart your PC)', 'The Big Shay', MB_ICONWARNING | MB_YESNO)
         
         if response == 6:  # User clicked "Yes"
             if UseBoth == True:
