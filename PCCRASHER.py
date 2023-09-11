@@ -6,7 +6,7 @@
 #If UseBoth is set to True, disable the others.
 
 
-
+githubversion = '0.0.2'
 UseBoth = True 
 UseBrowser = False
 BrowserURL = 'https://outlook.office365.com/mail/inbox/'
@@ -14,7 +14,10 @@ UseCMDWindows = False
 DebuggingMode = False #Set to False for this to actually work - True for testing
 DebuggingTimes = 5 #If debugging mode is on, how many times should it loop
 
-
+if version != githubversion:
+        print('take2')
+else:
+        print('hi')
 # End Of Settings
 
 
