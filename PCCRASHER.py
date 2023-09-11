@@ -4,7 +4,7 @@
 #If UseBoth is set to True, disable the others.
 
 UseBoth = True 
-UseBrowser = True
+UseBrowser = False
 BrowserURL = 'https://outlook.office365.com/mail/inbox/'
 UseCMDWindows = False
 DebuggingMode = True #Set to False for this to actually work - True for testing
@@ -55,7 +55,6 @@ DebuggingTimes = 5 #If debugging mode is on, how many times should it loop
 
 
 
-print("You are using the most up to date version!")
 # Do Not Edit Below
 
 
@@ -96,7 +95,7 @@ time.sleep(3)
 
 
 if DebuggingMode == False:
-        response = ctypes.windll.user32.MessageBoxW(None, 'Are you sure you want to continue?', 'The Big Shay', MB_ICONWARNING | MB_YESNO)
+        response = ctypes.windll.user32.MessageBoxW(None, 'Status: You are using the most up to date version!\n\nAre you sure you want to continue?', 'The Big Shay', MB_ICONWARNING | MB_YESNO)
         
         if response == 6:  # User clicked "Yes"
             if UseBoth == True:
@@ -116,7 +115,7 @@ if DebuggingMode == False:
 
 
 if DebuggingMode == True:
-        response = ctypes.windll.user32.MessageBoxW(None, 'Status: Debugging Mode - (Will not loop forever)\n\nAre you sure you want to continue?', 'Debugging', MB_ICONQUESTION | MB_YESNO)
+        response = ctypes.windll.user32.MessageBoxW(None, 'Status: You are using the most up to date version!\n\nConfig: Debugging Mode - (Will not loop forever)\n\nAre you sure you want to continue?', 'Debugging', MB_ICONQUESTION | MB_YESNO)
         
         if response == 6:  # User clicked "Yes"
             if UseBoth == True:
