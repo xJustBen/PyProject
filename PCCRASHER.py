@@ -9,7 +9,7 @@ BrowserURL = 'https://outlook.office365.com/mail/inbox/'
 UseCMDWindows = False
 DebuggingMode = False #Set to False for this to actually work - True for testing
 DebuggingTimes = 5 #If debugging mode is on, how many times should it loop
-
+Version = '0.0.5'
 # End Of Settings
 
 
