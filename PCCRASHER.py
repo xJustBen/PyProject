@@ -76,7 +76,7 @@ if DebuggingMode == False:
             print(terminated)
 
 
-if DebuggingMode == True:
+elif DebuggingMode == True:
         response1 = ctypes.windll.user32.MessageBoxW(None, 'Status: You are using the most up to date version!\n\nConfig: Debugging Mode - (Will not loop forever)\n\nAre you sure you want to continue?', 'Debugging', MB_ICONQUESTION | MB_YESNO)
         
         if response1 == 6:  # User clicked "Yes"
