@@ -77,9 +77,9 @@ if DebuggingMode == False:
 
 
 if DebuggingMode == True:
-        response = ctypes.windll.user32.MessageBoxW(None, 'Status: You are using the most up to date version!\n\nConfig: Debugging Mode - (Will not loop forever)\n\nAre you sure you want to continue?', 'Debugging', MB_ICONQUESTION | MB_YESNO)
+        response1 = ctypes.windll.user32.MessageBoxW(None, 'Status: You are using the most up to date version!\n\nConfig: Debugging Mode - (Will not loop forever)\n\nAre you sure you want to continue?', 'Debugging', MB_ICONQUESTION | MB_YESNO)
         
-        if response == 6:  # User clicked "Yes"
+        if response1 == 6:  # User clicked "Yes"
             if UseBoth == True:
                 for _ in range(DebuggingTimes):
                     webbrowser.open_new_tab(BrowserURL)
