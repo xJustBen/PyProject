@@ -1,3 +1,8 @@
+#Press CTRL + A and CTRL+C to copy all
+
+
+
+
 #Full screen this window to read
 
 #This will automatically load the most up to date version of the script
